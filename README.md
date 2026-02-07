@@ -1,4 +1,4 @@
-## Cloud Computing 101 – Copies and Summaries
+## Cloud Computing 101 – Copies
 
 ## Cloud Computing Definition
 
