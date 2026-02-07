@@ -1,42 +1,101 @@
-## Cloud-Computing-101-Copies-and-Summaries
+## Cloud Computing 101 – Copies and Summaries
 
-#Cloud Computing Definition
-  -is the on-demand delivery of IT recources over the internet with pay as you go pricing
+## Cloud Computing Definition
 
-- On demand delivery means a cloud provider has the resources you need when you need them
-- IT recources over the internet - cloud computing has server, networks, storage, development tools, and applications
-- Pay as you go pricing - pay only for what you need when you need it
+Cloud computing is the **on-demand delivery of IT resources over the internet** with **pay-as-you-go pricing**.
 
-Amazon Web Services (AWS) is the world's most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally. It provides on-demand IT resources like computing power, database storage, and content delivery on a pay-as-you-go basis, allowing businesses to lower costs and scale infrastructure instant
+* **On-demand delivery**: A cloud provider has the resources you need, when you need them.
+* **IT resources over the internet**: Includes servers, networks, storage, development tools, and applications.
+* **Pay-as-you-go pricing**: You pay only for what you use, when you use it.
 
-#Deploying to the Cloud
-  - Cloud service and deployment methods provide different levels of controls, flexibility and management
-  - Deployment models include the following:
-    * Infastructure as a service (IaaS)
-    * Platform as a service (PaaS)
-    * Software as a service (SaaS)
+**Amazon Web Services (AWS)** is the world’s most comprehensive and broadly adopted cloud platform. It offers over 200 fully featured services from data centers around the world. AWS provides on-demand IT resources such as computing power, database storage, and content delivery, allowing businesses to lower costs and scale infrastructure instantly.
 
-#Infastructure as a service (IaaS)
-  - Infastructure as a service (IaaS) contains the basic building blocks for cloud IT. It typically provide access to networking features, computer(virtual or dedicated hardware), and data storage space.
-    Infastructure as a service provides highest and management control over your IT recources.
+---
 
-#Platform as a service (PaaS) 
-  - Platform as a service (PaaS) removes the need for organizations to manage the underlying infastructure (usually hardware and operating systems). They can focus on the deployment of applications
-    These tools give developers the ability to be more effecient because they don't need to wory about the recource procurement, capacity planning, software maintenance and patching
-    
-#Software as a service (SaaS)
-  - Software as a service (SaaS) is a completed software product that the service provider runs and manages. with a SaaS offering, you do not have to think about how the service is maintained
-    or how the underlying infastructure is manage. You only must think about how you will use that particular piece of software
+## Deploying to the Cloud
 
-#Cloud deployment models
-  - Cloud
-      * In a cloud based deployment, you can migrate existing applications to the cloud, or you can design and build new applications in the cloud, you can build those on low level infastructure that requires your IT staff to manage
-    them. Alternatively, you can build them by using higher level services that reduce the management, architecting and scaling requirements of the core infastructure.
-  
-  - Hybrid
-      * In a hybrid deployment, cloud based resources are connected to on premises infastructure. You can integrate cloud-based recources with legacy IT applications. You might want to use this approach in a number of situatuins. For example, you have legacy applications that are better maintained on premises, or goverment requlations require your business to keep records on premises
-  
-  - On Premises
-      * On premises deployment is also known as a private cloud deployment. In this model, resources are deployed on premises by using virtualization and recource management tools. Increase recource utilization by using application management and virtualization technologies
-   
-  
+Cloud services and deployment methods provide different levels of control, flexibility, and management.
+
+### Cloud Service Models
+
+* **Infrastructure as a Service (IaaS)**
+* **Platform as a Service (PaaS)**
+* **Software as a Service (SaaS)**
+
+---
+
+## Infrastructure as a Service (IaaS)
+
+Infrastructure as a Service (IaaS) provides the basic building blocks for cloud IT.
+
+It typically includes:
+
+* Networking features
+* Computing resources (virtual machines or dedicated hardware)
+* Data storage
+
+IaaS provides the **highest level of flexibility and management control** over IT resources. The customer is responsible for managing the operating system, applications, and configurations.
+
+---
+
+## Platform as a Service (PaaS)
+
+Platform as a Service (PaaS) removes the need for organizations to manage the underlying infrastructure (such as hardware and operating systems).
+
+With PaaS:
+
+* Developers focus on deploying and managing applications
+* The cloud provider handles infrastructure, maintenance, and patching
+
+These tools help developers work more efficiently because they do not need to worry about resource procurement, capacity planning, software maintenance, or system updates.
+
+---
+
+## Software as a Service (SaaS)
+
+Software as a Service (SaaS) is a **complete software product** that the service provider runs and manages.
+
+With SaaS:
+
+* You do not manage the infrastructure or platform
+* You only focus on how to use the software
+
+Examples include email services, file storage platforms, and online productivity tools.
+
+---
+
+## Cloud Deployment Models
+
+### Cloud (Public Cloud)
+
+In a cloud-based deployment, applications run entirely in the cloud.
+
+* You can migrate existing applications or build new ones directly in the cloud
+* Applications can be built on low-level infrastructure that requires IT staff management
+* Alternatively, higher-level services can be used to reduce infrastructure management, scaling, and architectural complexity
+
+---
+
+### Hybrid
+
+In a hybrid deployment, **cloud-based resources are connected to on-premises infrastructure**.
+
+This approach is useful when:
+
+* Integrating cloud services with legacy IT applications
+* Certain data must remain on-premises due to government regulations or compliance requirements
+* Some applications perform better when maintained locally
+
+---
+
+### On-Premises (Private Cloud)
+
+On-premises deployment is also known as a **private cloud deployment**.
+
+In this model:
+
+* Resources are hosted in the organization’s own data center
+* Virtualization and resource management tools are used
+* Application management and virtualization technologies help increase resource utilization
+
+The organization is responsible for managing and maintaining all hardware and infrastructure.
